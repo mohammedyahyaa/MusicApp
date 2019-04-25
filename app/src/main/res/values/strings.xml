@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Musical Structure App</string>
+    <string name="library">Music Library</string>
+    <string name="artists">Artists</string>
+    <string name="artist_placeholder">Artist Name Here</string>
+    <string name="songs">Songs</string>
+    <string name="song_placeholder">Song Name Here</string>
+    <string name="albums">Albums</string>
+    <string name="album_placeholder">Album Name Here</string>
+
+    <string name="now_playing">Now Playing</string>
+    <string name="explain_library">Here on the library page the user will have access to all their
+    music files, specifically they will have to choose which organizational method they wish to view those files
+        with. The code in this section is relatively straightforward. Most of the implementation is already done.</string>
+    <string name="explain_artists">On this activity the user will interact with a list of artists. Clicking
+    on one of these entries would bring the user to another list activity. To implement this I would need
+    some functionality that will scan the user\'s phone for media files and lists them together using their
+    meta data. I would also need to be able to create a new Activity for each individual artist.</string>
+    <string name="explain_albums">On this activity the user will interact with a list of albums. Clicking
+    on one of these entries would bring the user to another list activity. To implement this I would need
+    some functionality that will scan the user\'s phone for media files and lists them together using their
+    meta data. I would also need to be able to create a new Activity for each individual album.</string>
+    <string name="explain_songs">On this activity the user will interact with a list of songs. Clicking
+    on one of these entries will make that song the now playing song. To implement this I would need
+    some functionality that will scan the user\'s phone for media files and lists them together using their
+    meta data. I would also need to be able to play a media file, I could use the Media Playback API. </string>
+</resources>
